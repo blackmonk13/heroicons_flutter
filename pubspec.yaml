@@ -10,13 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^1.1.5
+  flutter_svg: ^1.1.6
   path: ^1.8.2
 
 dev_dependencies:
-  code_builder: ^4.3.0
+  code_builder: ^4.4.0
   dart_style: ^2.2.4
-  recase: ^4.0.0
+  recase: ^4.1.0
 
 flutter:
   assets:
