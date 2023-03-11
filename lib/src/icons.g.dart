@@ -730,6 +730,9 @@ enum HeroIcons {
   /// Newspaper icon
   newspaper._('newspaper', defaultSemanticLabel: "Newspaper icon"),
 
+  /// Next icon
+  next._('next', defaultSemanticLabel: "Next icon"),
+
   /// No symbol icon
   noSymbol._('no-symbol', defaultSemanticLabel: "No symbol icon"),
 
@@ -800,6 +803,9 @@ enum HeroIcons {
   /// Presentation chart line icon
   presentationChartLine._('presentation-chart-line',
       defaultSemanticLabel: "Presentation chart line icon"),
+
+  /// Previous icon
+  previous._('previous', defaultSemanticLabel: "Previous icon"),
 
   /// Printer icon
   printer._('printer', defaultSemanticLabel: "Printer icon"),

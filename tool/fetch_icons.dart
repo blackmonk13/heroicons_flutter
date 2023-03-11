@@ -14,7 +14,7 @@ Future<void> main() async {
 
   // Run git clone and print the results so they're visible.
   print("Cloning HeroIcons...");
-  final result = await Process.run("git", ["clone", "https://github.com/tailwindlabs/heroicons.git", cacheDir.path], runInShell: true);
+  final result = await Process.run("git", ["clone", "https://github.com/blackmonk13/heroicons.git", cacheDir.path], runInShell: true);
   stdout.write(result.stdout);
   stderr.write(result.stderr);
   await Future.wait([stdout.flush(), stderr.flush()]);
