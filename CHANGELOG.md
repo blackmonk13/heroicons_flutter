@@ -1,3 +1,13 @@
+## 0.8.0
+* fix: solve problems when reducing size of icon
+* feat: Add `HeroIconTheme` InheritedWidget (can be used to set HeroIcon style globally)
+* feat: generate semantic labels automatically (and allow manual ones to be specified)
+* chore: update HeroIcons to `v2.0.15`
+* chore: remove deprecated methods and properties
+* chore: refactor `HeroIcons` to enum
+* chore: update and improve scripts - convert fetch script to dart
+* chore: update dependencies
+
 ## 0.7.0
 
 * feat: add `HeroIconStyle` enum
